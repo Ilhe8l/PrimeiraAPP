@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">第一個應用程式</string>
+    <string name="ET_ButtonSubmit">傳送</string>
+    <string name="ET_PlaceHolder">在此輸入</string>
+</resources>

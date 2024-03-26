@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Primeira APP</string>
+    <string name="ET_ButtonSubmit">Enviar</string>
+    <string name="ET_PlaceHolder">Digite Aqui</string>
+</resources>
