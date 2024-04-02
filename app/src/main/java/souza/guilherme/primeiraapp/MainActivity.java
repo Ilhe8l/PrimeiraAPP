@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity{ //A classe MainActivy é a 
         btnEnviar.setOnClickListener(new View.OnClickListener() { //Define o que ocorre para quando o botão for clicado
             @Override
             public void onClick(View v) { //É executado quando o botão for clicado
-                EditText etDigiteAqui = findViewById(R.id.etDigiteAqui); //Pega o texto que foi digitado no elemento etDigiteAqui
-                String TextoDigitado = etDigiteAqui.getText().toString(); //Converte o texto para uma String
+                EditText etDigiteAqui = findViewById(R.id.etDigiteAqui); //Obtém o elemento de campo de texto etDigiteAqui
+                String TextoDigitado = etDigiteAqui.getText().toString(); //Obtém o objeto de texto e o converte para uma String
                 Intent i = new Intent(MainActivity.this, NextActivity.class); //Cria uma Intent (passagem de uma tela a outra)
                 i.putExtra("batata-frita", TextoDigitado); //Dentro do Intent, colocamos o valor TextoDigitado associado a chave "batata_frita"
-                startActivity(i); //inicia a Activity
+                startActivity(i); //Inicia a Activity, passando como parâmetro a Intent (i)
             }
         });
     }
